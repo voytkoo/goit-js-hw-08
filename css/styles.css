@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.gallery {
+width: 1228px;
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+justify-content: center;
+background: #FFF;
+
+}
+
+.gallery-item {
+width: 360px;
+height: 200px;
+
+   
+}
+.gallery-item:hover {
+transform: scale(1.016, 1.04);
+transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.gallery-image {
+object-fit: cover;
+width: 360px;
+height: 200px;
+ }
