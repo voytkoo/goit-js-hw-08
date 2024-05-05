@@ -15,7 +15,7 @@ display: flex;
 flex-wrap: wrap;
 gap: 24px;
 justify-content: flex-start;
-margin: 0 auto;
+margin: 24px auto;
 background: #FFF;
 
 
